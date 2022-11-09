@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-08 14:09:52
- * @LastEditTime: 2022-11-09 10:06:52
+ * @LastEditTime: 2022-11-09 17:39:04
 -->
 # 自开发徽章组件
 
@@ -136,6 +136,7 @@ type ComponentType = "FORM_TEXT_INPUT" | "FORM_SELECT_INPUT" | "FORM_VIRTUAL_FIE
 `extraConfig`，额外的配置，这里是指你可以自定义徽标的形式，只需要在任意自开发包中上传对应的 `svg` 即可。当然需要注意下面的规则 👇
 
 - 因为是自定义那么 `key` 就是你的 `svg` 文件的文件名，`value` 依然是对应 `model` 可能取到的值，如果是这个值，显示对应的徽标
+- 额外的配置同样遵循 `key` 不重复原则，且不可和 `config` 里面的配置重复，实际上 `extraConfig` 里的配置也可以放入 `config` 中，这样设计只是为了区别原有的配置和自定义的配置
 - 在其他自开发包中如果需要上传自己的 `svg` 使用，请在 `custom/index.js` 中添加以下代码
 
 ```js

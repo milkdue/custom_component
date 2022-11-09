@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-08 14:09:52
- * @LastEditTime: 2022-11-09 10:06:52
+ * @LastEditTime: 2022-11-09 17:39:04
 -->
 <h1 id="自开发徽章组件" tabindex="-1"><a class="header-anchor" href="#自开发徽章组件" aria-hidden="true">#</a> 自开发徽章组件</h1>
 <h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2>
@@ -114,6 +114,7 @@
 <p><code v-pre>extraConfig</code>，额外的配置，这里是指你可以自定义徽标的形式，只需要在任意自开发包中上传对应的 <code v-pre>svg</code> 即可。当然需要注意下面的规则 👇</p>
 <ul>
 <li>因为是自定义那么 <code v-pre>key</code> 就是你的 <code v-pre>svg</code> 文件的文件名，<code v-pre>value</code> 依然是对应 <code v-pre>model</code> 可能取到的值，如果是这个值，显示对应的徽标</li>
+<li>额外的配置同样遵循 <code v-pre>key</code> 不重复原则，且不可和 <code v-pre>config</code> 里面的配置重复，实际上 <code v-pre>extraConfig</code> 里的配置也可以放入 <code v-pre>config</code> 中，这样设计只是为了区别原有的配置和自定义的配置</li>
 <li>在其他自开发包中如果需要上传自己的 <code v-pre>svg</code> 使用，请在 <code v-pre>custom/index.js</code> 中添加以下代码</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token string">'@/icons/index'</span><span class="token punctuation">;</span>
