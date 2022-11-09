@@ -7,53 +7,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "自开发页面文档",
-    "headers": [
-      {
-        "level": 2,
-        "title": "TODO",
-        "slug": "todo",
-        "link": "#todo",
-        "children": []
-      }
-    ],
-    "path": "/page/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "自开发首页",
-    "headers": [
-      {
-        "level": 2,
-        "title": "首页",
-        "slug": "首页",
-        "link": "#首页",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "功能描述",
-        "slug": "功能描述",
-        "link": "#功能描述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "TODO",
-        "slug": "todo",
-        "link": "#todo",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下载包",
-        "slug": "下载包",
-        "link": "#下载包",
-        "children": []
-      }
-    ],
-    "path": "/page/example.html",
+    "title": "组件对应值",
+    "headers": [],
+    "path": "/appendix/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -358,9 +314,53 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "组件对应值",
-    "headers": [],
-    "path": "/appendix/",
+    "title": "自开发页面文档",
+    "headers": [
+      {
+        "level": 2,
+        "title": "TODO",
+        "slug": "todo",
+        "link": "#todo",
+        "children": []
+      }
+    ],
+    "path": "/page/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "自开发首页",
+    "headers": [
+      {
+        "level": 2,
+        "title": "首页",
+        "slug": "首页",
+        "link": "#首页",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "功能描述",
+        "slug": "功能描述",
+        "link": "#功能描述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "TODO",
+        "slug": "todo",
+        "link": "#todo",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载包",
+        "slug": "下载包",
+        "link": "#下载包",
+        "children": []
+      }
+    ],
+    "path": "/page/example.html",
     "pathLocale": "/",
     "extraFields": []
   },
