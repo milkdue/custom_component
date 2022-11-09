@@ -7,13 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "组件对应值",
-    "headers": [],
-    "path": "/appendix/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "自开发页面文档",
     "headers": [
       {
@@ -155,6 +148,63 @@ export const searchIndex = [
       }
     ],
     "path": "/component/badge.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "自定义锚点",
+    "headers": [
+      {
+        "level": 2,
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "原理",
+        "slug": "原理",
+        "link": "#原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "用法",
+        "slug": "用法",
+        "link": "#用法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "举个🌰",
+        "slug": "举个🌰",
+        "link": "#举个🌰",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他",
+        "slug": "其他",
+        "link": "#其他",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "todo",
+        "slug": "todo",
+        "link": "#todo",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下载包",
+        "slug": "下载包",
+        "link": "#下载包",
+        "children": []
+      }
+    ],
+    "path": "/component/function.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -304,6 +354,13 @@ export const searchIndex = [
       }
     ],
     "path": "/component/viewlist.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "组件对应值",
+    "headers": [],
+    "path": "/appendix/",
     "pathLocale": "/",
     "extraFields": []
   },

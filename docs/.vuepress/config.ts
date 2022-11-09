@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-01 11:03:24
- * @LastEditTime: 2022-11-09 09:26:39
+ * @LastEditTime: 2022-11-09 16:52:31
  */
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -83,7 +83,8 @@ export default defineUserConfig({
                     children: [
                         "/component/README.md",
                         "/component/viewlist.md",
-                        "/component/badge.md"
+                        "/component/badge.md",
+                        "/component/function.md"
                     ]
                 }
             ],

@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-08 14:09:48
- * @LastEditTime: 2022-11-09 09:28:46
+ * @LastEditTime: 2022-11-09 17:11:55
 -->
 # 自开发数据选择通用组件
 
@@ -720,4 +720,4 @@ interface Output {
 
 ## 下载
 
-<l-download title="自开发包下载" link="https://share.weiyun.com/BtgpxanV" />
+<l-download title="自开发包下载" link="https://share.weiyun.com/dAB7ijHB" />

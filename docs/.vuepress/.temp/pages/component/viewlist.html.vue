@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-08 14:09:48
- * @LastEditTime: 2022-11-09 09:28:46
+ * @LastEditTime: 2022-11-09 17:11:55
 -->
 <h1 id="自开发数据选择通用组件" tabindex="-1"><a class="header-anchor" href="#自开发数据选择通用组件" aria-hidden="true">#</a> 自开发数据选择通用组件</h1>
 <h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2>
@@ -684,6 +684,6 @@
 <p><img src="/component/3.jpeg" alt="image"></p>
 <h2 id="todo" tabindex="-1"><a class="header-anchor" href="#todo" aria-hidden="true">#</a> todo</h2>
 <l-checkbox color="red" content="带入参数增加其他类型组件，详细见附录" /><l-checkbox color="red" content="serachList增加更多类型组件，例如：SearchPersonSelect等" /><l-checkbox color="red" content="允许勾选自定义方法，如何增加配置" /><l-checkbox color="red" content="插槽模版增加自定义逻辑..." /><h2 id="下载" tabindex="-1"><a class="header-anchor" href="#下载" aria-hidden="true">#</a> 下载</h2>
-<l-download title="自开发包下载" link="https://share.weiyun.com/BtgpxanV" /></div></template>
+<l-download title="自开发包下载" link="https://share.weiyun.com/dAB7ijHB" /></div></template>
 
 
