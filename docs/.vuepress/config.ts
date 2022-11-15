@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-01 11:03:24
- * @LastEditTime: 2022-11-09 16:52:31
+ * @LastEditTime: 2022-11-15 14:08:10
  */
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -50,8 +50,7 @@ export default defineUserConfig({
     theme: defaultTheme({
         logo: '/imgs/favicon.ico',
         lastUpdated: true,
-        repo: 'https://www.keyiqingxin.cn',
-        repoLabel: '🖥',
+        repo: 'https://github.com/milkdue/custom_component',
         editLink: false,
         navbar: [
             {
@@ -73,7 +72,8 @@ export default defineUserConfig({
                     text: '页面',
                     children: [
                         "/page/README.md",
-                        "/page/example.md"
+                        "/page/example.md",
+                        "/page/sso.md"
                     ]
                 }
             ],
