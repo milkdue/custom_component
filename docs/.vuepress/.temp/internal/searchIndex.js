@@ -89,30 +89,30 @@ export const searchIndex = [
         "children": [
           {
             "level": 3,
-            "title": "1、api",
-            "slug": "_1、api",
-            "link": "#_1、api",
+            "title": "1、url",
+            "slug": "_1、url",
+            "link": "#_1、url",
             "children": []
           },
           {
             "level": 3,
-            "title": "2、params",
-            "slug": "_2、params",
-            "link": "#_2、params",
+            "title": "2、method",
+            "slug": "_2、method",
+            "link": "#_2、method",
             "children": []
           },
           {
             "level": 3,
-            "title": "3、headers",
-            "slug": "_3、headers",
-            "link": "#_3、headers",
+            "title": "3、oriTokenType",
+            "slug": "_3、oritokentype",
+            "link": "#_3、oritokentype",
             "children": []
           },
           {
             "level": 3,
-            "title": "4、oriToken",
-            "slug": "_4、oritoken",
-            "link": "#_4、oritoken",
+            "title": "4、oriTokenProp",
+            "slug": "_4、oritokenprop",
+            "link": "#_4、oritokenprop",
             "children": []
           },
           {
@@ -131,12 +131,19 @@ export const searchIndex = [
           },
           {
             "level": 3,
-            "title": "7、theme",
-            "slug": "_7、theme",
-            "link": "#_7、theme",
+            "title": "7、color",
+            "slug": "_7、color",
+            "link": "#_7、color",
             "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "配置",
+        "slug": "配置",
+        "link": "#配置",
+        "children": []
       },
       {
         "level": 2,
@@ -465,16 +472,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
