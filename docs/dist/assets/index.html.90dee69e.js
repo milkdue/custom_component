@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-15731ad1","path":"/view/","title":"自开发页面文档","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"TODO","slug":"todo","link":"#todo","children":[]}],"git":{"updatedTime":1668768900000,"contributors":[{"name":"milkdue","email":"321432896@qq.com","commits":1}]},"filePathRelative":"view/README.md"}');export{e as data};
