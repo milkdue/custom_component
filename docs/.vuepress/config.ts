@@ -2,7 +2,7 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-01 11:03:24
- * @LastEditTime: 2022-11-15 14:08:10
+ * @LastEditTime: 2022-11-18 18:33:21
  */
 import { defineUserConfig, defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
@@ -62,6 +62,10 @@ export default defineUserConfig({
                 link: '/component/'
             },
             {
+                text: '视图',
+                link: '/view/'
+            },
+            {
                 text: '附录',
                 link: '/appendix/'
             }
@@ -85,6 +89,15 @@ export default defineUserConfig({
                         "/component/viewlist.md",
                         "/component/badge.md",
                         "/component/function.md"
+                    ]
+                }
+            ],
+            "/view/": [
+                {
+                    text: '视图',
+                    children: [
+                        "/view/README.md",
+                        "/view/son.md"
                     ]
                 }
             ],

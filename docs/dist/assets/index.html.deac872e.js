@@ -1,4 +1,4 @@
-import{_ as s,o as n,c as a,a as e}from"./app.2cb19b59.js";const p={},i=e(`<h1 id="组件对应值" tabindex="-1"><a class="header-anchor" href="#组件对应值" aria-hidden="true">#</a> 组件对应值</h1><p>FORM_TEXT_INPUT 单行输入</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code>数据格式
+import{_ as s,o as n,c as a,a as e}from"./app.58666eac.js";const p={},i=e(`<h1 id="组件对应值" tabindex="-1"><a class="header-anchor" href="#组件对应值" aria-hidden="true">#</a> 组件对应值</h1><p>FORM_TEXT_INPUT 单行输入</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code>数据格式
 <span class="token string">&quot;11&quot;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>FORM_TEXTAREA_INPUT 多行输入</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code>数据格式
 <span class="token string">&quot;222&quot;</span>
