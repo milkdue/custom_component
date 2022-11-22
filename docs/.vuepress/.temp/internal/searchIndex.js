@@ -480,7 +480,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "自开发列表视图组件",
+    "title": "自定义列表视图",
     "headers": [
       {
         "level": 2,

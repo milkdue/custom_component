@@ -2,15 +2,16 @@
  * @Author: 可以清心
  * @Description: 
  * @Date: 2022-11-18 18:33:01
- * @LastEditTime: 2022-11-18 18:54:08
+ * @LastEditTime: 2022-11-22 17:30:33
 -->
-# 自开发列表视图组件
+# 自定义列表视图
 
 ## 介绍
 
 1. 主子表同时存在一个页面里面
 2. 默认显示第一条数据的子表数据
 3. 点击主表数据下方显示其子表数据
+4. 手动调整两表之间的高度
 
 ## 预览
 
@@ -18,11 +19,12 @@
 ![image](/view/2.png)
 ![image](/view/3.png)
 ![image](/view/4.png)
+![image](/view/5.png)
+![image](/view/6.png)
 
 ## todo
 
-<l-checkbox color="red" content="附件弹窗列表" />
-<l-checkbox color="red" content="列宽调整" />
+<l-checkbox color="red" content="暂无" />
 
 ## 下载
 
